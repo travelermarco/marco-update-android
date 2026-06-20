@@ -1,0 +1,74 @@
+<!-- ═══════════════════════════════════════════════════════════════════════
+     BANNER FOR SHARE/PROCESSING SCREEN
+     Place inside your confirmation LinearLayout, at the bottom.
+     ═══════════════════════════════════════════════════════════════════════ -->
+<LinearLayout
+    android:id="@+id/updateBanner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="14dp"
+    android:background="#0D2040"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    android:visibility="gone">
+
+    <TextView
+        android:id="@+id/updateText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#7FBAFF"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/update_download"
+        android:textColor="#7C4DFF"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:background="@drawable/update_btn_bg" />
+
+</LinearLayout>
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════
+     BANNER FOR LAUNCHER / MAIN SCREEN
+     Place somewhere visible in the main/launcher layout.
+     ═══════════════════════════════════════════════════════════════════════ -->
+<LinearLayout
+    android:id="@+id/updateBannerLauncher"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:background="#0D2040"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical"
+    android:visibility="gone">
+
+    <TextView
+        android:id="@+id/updateTextLauncher"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#7FBAFF"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/updateButtonLauncher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/update_download"
+        android:textColor="#7C4DFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:background="@drawable/update_btn_bg" />
+
+</LinearLayout>

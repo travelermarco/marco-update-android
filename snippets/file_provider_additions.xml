@@ -1,0 +1,3 @@
+<!-- Add inside your existing res/xml/file_provider_paths.xml <paths> block -->
+
+<cache-path name="updates" path="updates/" />

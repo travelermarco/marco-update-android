@@ -1,0 +1,6 @@
+<!-- Add to res/values/strings.xml -->
+
+<string name="update_available">⬆ Update v%s available</string>
+<string name="update_download">Install</string>
+<string name="update_downloading">Downloading…</string>
+<string name="update_download_error">Download failed. Tap to open in browser.</string>
