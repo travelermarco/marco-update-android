@@ -1,5 +1,7 @@
 # Marco Update — Android
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?logo=open-source-initiative&logoColor=white)](LICENSE)
+
 Reusable in-app update system for Android apps distributed via GitHub Releases.  
 Drop in 5 minutes. Zero third-party dependencies. Free forever.
 
